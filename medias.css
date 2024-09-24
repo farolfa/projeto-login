@@ -1,0 +1,63 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body{
+        background-image: linear-gradient(to bottom, #892be2be, rgba(65, 163, 65, 0.664));
+    }
+    section{
+        width: 90vw;
+        font-size: 1.3em;
+    }
+    section>#imagem{
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    section>#formulario{
+       width:65%;
+       float: right;
+       
+    }
+    a {
+
+        height: 70px;
+        
+    
+    }
+}
+@media screen and (min-width:992px) {
+    body{
+        background-image: linear-gradient(to top,#49a09d, #5f2c82);
+    }
+    
+    section{
+        width: 950px;
+        font-size: 1.6em;
+    }
+    section>#imagem{
+        float: right;
+        width: 44%;
+        height: 100%;
+    }
+    section>#formulario{
+        float:left;
+        width: 53%;
+    }
+    #ilogin >p{
+        margin-bottom: 30px;
+    }
+    #logina, #isenha {
+        background-color: #7fffd4e8;
+        font-size: 1em;
+        width: calc(97% - 50px);
+        height: 40px;
+        transform: translateY(-7px);
+        border: none;
+        border-radius: 10px;
+}
+a {
+
+    height: 80px;
+    transform: translateY(-3px);
+
+}
+}
